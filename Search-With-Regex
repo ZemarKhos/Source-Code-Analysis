@@ -1,0 +1,6 @@
+SQL Query Search Regex
+^.*?query.*?select.*?
+
+GET POST Or Unique Search with grep
+
+Search Get Request: find foldername/ -type f -name "*.php" | xargs grep -l '$_GET' | xargs grep -in '$_GET'
